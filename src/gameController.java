@@ -8,6 +8,7 @@ class gameController {
     }
     public void play(){
         setLang();
+        playRound(true);
     }
     private void setLang(){
         Language.SetLanguage("preLangPick");
@@ -39,7 +40,16 @@ class gameController {
                 setLang();
         }
     }
-    private void callPlayer(int player){
+    private void playRound(boolean p1Turn){
+        //trow dice
+        //Move player
+        //Update cash balance and check win conditions
+        //play round for the appropriate player
+        if (p1Turn){
+            playRound(false);
+        } else {
+            playRound(true);
+        }
 
     }
 
