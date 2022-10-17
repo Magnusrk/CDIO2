@@ -1,0 +1,12 @@
+#DONT REMOVE TESTS
+test1;-1 -      asd1 -test EN 1
+test2;-.,-:`?test EN 2
+test3;:::"""""""test EN 3
+test4;+-.,123test EN 4
+
+#USAGE:
+#key;value
+#e.g.
+#throwDiceText;You rolled the die!
+
+welcomeText;Welcome!

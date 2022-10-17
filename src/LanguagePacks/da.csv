@@ -1,0 +1,12 @@
+#DONT REMOVE TESTS
+test1;-1 -      asd1 -test DA 1
+test2;-.,-:`?test DA 2
+test3;:::"""""""test DA 3
+test4;+-.,123test DA 4
+
+#USAGE:
+#key;value
+#e.g.
+#throwDiceText;Du kastede med terningerne!
+
+welcomeText;Velkommen!

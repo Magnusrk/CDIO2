@@ -1,0 +1,12 @@
+#DONT REMOVE TESTS!
+test1;-1 -      asd1 -test JP 1
+test2;-.,-:`?test JP 2
+test3;:::"""""""test JP 3
+test4;+-.,123test JP 4
+
+#USAGE:
+#key;value
+#e.g.
+#throwDiceText;サイコロを振った！
+
+welcomeText;ようこそ!
