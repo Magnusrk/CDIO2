@@ -10,4 +10,5 @@ test4;+-.,123test JP 4
 #throwDiceText;サイコロを振った！
 
 welcomeText;ようこそ!
-languageSetText;Japanese
+languageSetText;ようこそ
+getJap;Nippon
