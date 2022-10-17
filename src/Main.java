@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         gameController game = new gameController();
-        game.play();
+        game.setLang("den");
     }
 }
