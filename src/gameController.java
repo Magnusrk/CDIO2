@@ -3,6 +3,11 @@ import java.util.Scanner;
 class gameController {
 
     private String language;
+    MoneyBalance p1balance = new MoneyBalance();
+    MoneyBalance p2balance = new MoneyBalance();
+
+    private final int MAXCASH = 3000;
+    private boolean winnerFound = false;
     public gameController(){
 
     }
@@ -41,20 +46,30 @@ class gameController {
         }
     }
     private void playRound(boolean p1Turn){
+        p1balance.addmoney(-100);
+        System.out.println(p1balance.getBalance());
         //trow dice
         //Move player
         //Update cash balance and check win conditions
         checkWinner();
         //play round for the appropriate player
-        if (p1Turn){
+        if (p1Turn && !winnerFound){
             playRound(false);
-        } else {
+        } else if (!winnerFound){
             playRound(true);
         }
 
+
     }
     private void checkWinner(){
-
+        if (p1balance.getBalance() >= MAXCASH){
+            System.out.println("p1 won");
+            winnerFound = true;
+        }
+        if (p2balance.getBalance() >= MAXCASH){
+            System.out.println("p2 won");
+            winnerFound = true;
+        }
     }
 
     public void resetGame(){
