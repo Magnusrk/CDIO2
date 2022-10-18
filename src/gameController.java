@@ -41,6 +41,11 @@ class gameController {
                 language = Language.GetString("getJap");
                 System.out.println(Language.GetString("languageSetText"));
                 break;
+            case "d":
+                Language.SetLanguage("th");
+                language = Language.GetString("getThai");
+                System.out.println(Language.GetString("languageSetText"));
+                break;
             default:
                 System.out.println(Language.GetString("tryAgain"));
                 System.out.println();

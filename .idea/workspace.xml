@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Made a die branch">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17-10-2022_11_32__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17-10-2022_11_32__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/th.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/th.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
