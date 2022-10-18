@@ -44,6 +44,7 @@ class gameController {
         //trow dice
         //Move player
         //Update cash balance and check win conditions
+        checkWinner();
         //play round for the appropriate player
         if (p1Turn){
             playRound(false);
@@ -52,9 +53,12 @@ class gameController {
         }
 
     }
+    private void checkWinner(){
+
+    }
 
     public void resetGame(){
-
+        play();
     }
 
 
