@@ -1,14 +1,14 @@
 #DONT REMOVE TESTS
 test1;-1 -      asd1 -test TH 1
 test2;-.,-:`?test TU 2
-test3;:::"""""""test DA 3
-test4;+-.,123test DA 4
+test3;:::"""""""test TH 3
+test4;+-.,123test TH 4
 
 #USAGE:
 #key;value
 #e.g.
-#throwDiceText;Du kastede med terningerne!
+#throwDiceText;คุณโยนลูกเต๋าแล้ว!
 
 welcomeText;สวัสดี!
-languageSetText;Sprog: Dansk
-getThai;Dansk
+languageSetText;ภาษา: ไทย
+getThai;ไทย
