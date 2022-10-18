@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 class gameController {
@@ -5,6 +6,7 @@ class gameController {
     private String language;
     MoneyBalance p1balance = new MoneyBalance();
     MoneyBalance p2balance = new MoneyBalance();
+    die Dice = new die();
 
     private final int MAXCASH = 3000;
     private boolean winnerFound = false;
@@ -46,9 +48,11 @@ class gameController {
         }
     }
     private void playRound(boolean p1Turn){
-        p1balance.addmoney(-100);
+        p1balance.addmoney(100);
         System.out.println(p1balance.getBalance());
         //trow dice
+        int[] dieResults = die.throwDice();
+        System.out.println(dieResults[0]+dieResults[1]);
         //Move player
         //Update cash balance and check win conditions
         checkWinner();
