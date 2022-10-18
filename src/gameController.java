@@ -23,6 +23,7 @@ class gameController {
         System.out.println(Language.GetString("english"));
         System.out.println(Language.GetString("danish"));
         System.out.println(Language.GetString("japanese"));
+        System.out.println(Language.GetString("thai"));
         Scanner scan = new Scanner(System.in);
         String lang = scan.next();
         switch (lang){
