@@ -1,55 +1,71 @@
 public class Field {
 
     String field;
-    int reward;
+    String fieldTxt;
+    int addCash;
     int dieCount;
-
+    /*Switch case to choose which field is landed on.
+     *It chooses based on the dice throw and outputs the corresponding field.*/
     public void fieldGet() {
         switch (dieCount){
             case 2:
                 field = "Tower";
-                reward = 250;
+                addCash = 250;
+
+                // Tekst skal formentlig ligge i en samlet pakke med oversætninger
+                // Tager gerne imod indsigelser i tekstindholdet
+                fieldTxt = "You find yourself at the tower and come across a chest full of gold.";
                 break;
             case 3:
                 field = "Crater";
-                reward = -100;
+                addCash = -100;
+                fieldTxt = "You fall into a crater and have to pay someone to rescue you.";
                 break;
             case 4:
                 field = "Palace gates";
-                reward = 100;
+                addCash = 100;
+                fieldTxt = "You meet the queen by the palace gates, she gives you 100 to f*ck off.";
                 break;
             case 5:
                 field = "Cold Desert";
-                reward = -20;
+                addCash = -20;
+                fieldTxt = "You find yourself in the cold desert. Someone is selling blankets. It's too cold not to buy.";
                 break;
             case 6:
                 field = "Walled city";
-                reward = 180;
+                addCash = 180;
+                fieldTxt = "You go to the walled city. You're entrant number 1.000.000.000.000 and get a price.";
                 break;
             case 7:
                 field = "Monastery";
-                reward = 0;
+                addCash = 0;
+                fieldTxt = "You go to the monastery to pray. Nothing happens.";
                 break;
             case 8:
                 field = "Black cave";
-                reward = -70;
+                addCash = -70;
+                fieldTxt = "You find yourself in a black cave. You can't see anything and trips over a rock. Some money falls out of you pocket but you can't find them.";
                 break;
             case 9:
                 field = "Huts in the mountain";
-                reward = 60;
+                addCash = 60;
+                fieldTxt = "You go for a hike and finds some huts in the mountain. You scavenge them for a small amount of cash.";
                 break;
             case 10:
                 field = "The Werewall";
-                reward = -80;
-                //extra turn
+                addCash = -80;
+                //extra turn (usikker på hvordan jeg implementerer det pt.)
+                fieldTxt = "You get lost and by some unfortunate bad luck end up at the Werewall. A werewolf spots you and takes chase. You try to throw whatever is in your pocket at it.";
                 break;
             case 11:
                 field = "The pit";
-                reward = -50;
+                addCash = -50;
+                fieldTxt = "You fall into the pit. Luckily there is a latter to get out. Unluckily you have to pay to use it.";
                 break;
             case 12:
                 field = "Goldmine";
-                reward = 650;
+                addCash = 650;
+                fieldTxt = "You go to the goldmine in hopes of making a quick buck, for some reason it works.";
                 break;
         }
     }
