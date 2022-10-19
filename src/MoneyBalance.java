@@ -13,6 +13,10 @@ public class MoneyBalance {
     public int getBalance(){
         return balance;
     }
+
+    public void reset(){
+        balance = startingbalance;
+    }
     public int getStartingbalance(){
         return startingbalance;
     }

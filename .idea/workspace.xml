@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Made the danish translation">
+    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="gold into gold coins">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LanguagePacks/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/da.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/th.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/th.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoneyBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoneyBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666191405421</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="gold into gold coins">
+      <created>1666191518828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666191518828</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +218,7 @@
     <MESSAGE value="removed some unnecessary comments" />
     <MESSAGE value="Converted more strings into the lang files" />
     <MESSAGE value="Made the danish translation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the danish translation" />
+    <MESSAGE value="gold into gold coins" />
+    <option name="LAST_COMMIT_MESSAGE" value="gold into gold coins" />
   </component>
 </project>

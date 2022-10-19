@@ -9,7 +9,7 @@ class gameController {
     Field field = new Field();
     die Dice = new die();
 
-    private final int MAXCASH = 3000;
+    private final int MAXCASH = 1500;
     private boolean winnerFound = false;
     public gameController(){
 
@@ -90,14 +90,21 @@ class gameController {
         if (p1balance.getBalance() >= MAXCASH){
             System.out.println(Language.GetString("p1Won"));
             winnerFound = true;
+            resetGame();
         }
         if (p2balance.getBalance() >= MAXCASH){
             System.out.println(Language.GetString("p2Won"));
             winnerFound = true;
+            resetGame();
         }
+
     }
 
     public void resetGame(){
+        p1balance.reset();
+        p2balance.reset();
+        winnerFound = false;
+        System.out.println();
         play();
     }
 
