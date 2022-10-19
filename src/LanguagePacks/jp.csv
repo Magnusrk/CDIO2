@@ -12,3 +12,15 @@ test4;+-.,123test JP 4
 welcomeText;ようこそ!
 languageSetText;ようこそ
 getJap;Nippon
+
+tower;
+crater;
+palace;
+desert;
+city;
+monastery;
+cave;
+huts;
+werewall;
+pit;
+goldmine;

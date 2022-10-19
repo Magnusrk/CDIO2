@@ -12,3 +12,15 @@ test4;+-.,123test DA 4
 welcomeText;Velkommen!
 languageSetText;Sprog: Dansk
 getDan;Dansk
+
+tower;
+crater;
+palace;
+desert;
+city;
+monastery;
+cave;
+huts;
+werewall;
+pit;
+goldmine;

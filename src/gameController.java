@@ -58,15 +58,13 @@ class gameController {
         Scanner input = new Scanner(System.in);
         System.out.println("Spiller " + Player + " kast");
         input.nextLine();
-        //trow dice
+        //throw dice
         int[] dieResults = die.throwDice();
 
         //Move player
         field.fieldGet(dieResults[0]+dieResults[1]);
         int roll = dieResults[0]+dieResults[1];
         System.out.println("You rolled " + roll);
-
-        System.out.println(field.field);
         System.out.println(field.fieldTxt);
 
         if (p1Turn) {
