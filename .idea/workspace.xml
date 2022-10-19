@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="removed some unnecessary comments">
+    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Converted more strings into the lang files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LanguagePacks/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/da.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LanguagePacks/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/en.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/jp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/jp.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/th.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/th.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666188648728</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Converted more strings into the lang files">
+      <created>1666189904675</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189904675</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +199,7 @@
     <MESSAGE value="Merged thai into gameController.java" />
     <MESSAGE value="Merged gameController branch into devbranch" />
     <MESSAGE value="removed some unnecessary comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed some unnecessary comments" />
+    <MESSAGE value="Converted more strings into the lang files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted more strings into the lang files" />
   </component>
 </project>
