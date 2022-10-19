@@ -21,6 +21,7 @@ lose;You lose
 yBalance;Your gold:
 p1Won;Player 1 you won!
 p2Won;Player 2 you won!
+exTurn;You get an extra turn!
 
 tower;You find yourself at the tower and come across a chest full of gold.
 

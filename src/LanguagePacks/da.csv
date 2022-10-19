@@ -21,6 +21,7 @@ lose;Du mister
 yBalance;Dit guld:
 p1Won;Spiller 1 du vandt!
 p2Won;Spiller 2 du vandt!
+exTurn;Du får en ekstra tur!
 
 
 tower;Du finder et tårn med en kiste fuldt af guld.

@@ -56,6 +56,7 @@ class gameController {
     }
     private void playRound(boolean p1Turn, int Player){
         Scanner input = new Scanner(System.in);
+        System.out.println();
         System.out.println(Language.GetString("player") + " " + Player + " " + Language.GetString("roll"));
         input.nextLine();
         //throw dice
@@ -74,13 +75,19 @@ class gameController {
             p2balance.addmoney(field.addCash);
             System.out.println(Language.GetString("yBalance") + " " + p2balance.getBalance());
         }
-
         //Update cash balance and check win conditions
         checkWinner();
+        if (field.field == "The Werewall"){
+            extraTurn(p1Turn);
+        }
+
+
+
         //play round for the appropriate player
         if (p1Turn && !winnerFound){
             playRound(false, 2);
-        } else if (!winnerFound){
+        }
+        if (!p1Turn && !winnerFound){
             playRound(true, 1);
         }
 
@@ -98,6 +105,16 @@ class gameController {
             resetGame();
         }
 
+    }
+    private void extraTurn(boolean p1Turn){
+        if (p1Turn && !winnerFound){
+            System.out.println(Language.GetString("exTurn"));
+            playRound(true, 1);
+        }
+        if (!p1Turn && !winnerFound){
+            System.out.println(Language.GetString("exTurn"));
+            playRound(false, 2);
+        }
     }
 
     public void resetGame(){
