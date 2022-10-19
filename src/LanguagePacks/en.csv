@@ -12,9 +12,15 @@ test4;+-.,123test EN 4
 welcomeText;Welcome!
 languageSetText;Language: English
 getEng;English
+player;Player
+roll;roll
+rolled;You rolled
 gold; gold
 gain;You gain
 lose;You lose
+yBalance;Your gold:
+p1Won;Player 1 you won!
+p2Won;Player 2 you won!
 
 tower;You find yourself at the tower and come across a chest full of gold.
 

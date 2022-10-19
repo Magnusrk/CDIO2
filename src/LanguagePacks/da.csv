@@ -12,15 +12,24 @@ test4;+-.,123test DA 4
 welcomeText;Velkommen!
 languageSetText;Sprog: Dansk
 getDan;Dansk
+player;Spiller
+roll;kast
+rolled;Du slog
+gold; guld
+gain;Du får
+lose;Du mister
+yBalance;Dit guld:
+p1Won;Spiller 1 du vandt!
+p2Won;Spiller 2 du vandt!
 
-tower;
-crater;
-palace;
-desert;
-city;
-monastery;
-cave;
-huts;
-werewall;
-pit;
-goldmine;
+tower;i
+crater;i
+palace;i
+desert;i
+city;i
+monastery;i
+cave;i
+huts;i
+werewall;i
+pit;i
+goldmine;i

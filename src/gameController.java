@@ -56,7 +56,7 @@ class gameController {
     }
     private void playRound(boolean p1Turn, int Player){
         Scanner input = new Scanner(System.in);
-        System.out.println("Spiller " + Player + " kast");
+        System.out.println(Language.GetString("player") + " " + Player + " " + Language.GetString("roll"));
         input.nextLine();
         //throw dice
         int[] dieResults = die.throwDice();
@@ -64,15 +64,15 @@ class gameController {
         //Move player
         field.fieldGet(dieResults[0]+dieResults[1]);
         int roll = dieResults[0]+dieResults[1];
-        System.out.println("You rolled " + roll);
+        System.out.println(Language.GetString("rolled") + " " + roll);
         System.out.println(field.fieldTxt);
 
         if (p1Turn) {
             p1balance.addmoney(field.addCash);
-            System.out.println(p1balance.getBalance());
+            System.out.println(Language.GetString("yBalance") + " " + p1balance.getBalance());
         } else {
             p2balance.addmoney(field.addCash);
-            System.out.println(p2balance.getBalance());
+            System.out.println(Language.GetString("yBalance") + " " + p2balance.getBalance());
         }
 
         //Update cash balance and check win conditions
@@ -88,11 +88,11 @@ class gameController {
     }
     private void checkWinner(){
         if (p1balance.getBalance() >= MAXCASH){
-            System.out.println("p1 won");
+            System.out.println(Language.GetString("p1Won"));
             winnerFound = true;
         }
         if (p2balance.getBalance() >= MAXCASH){
-            System.out.println("p2 won");
+            System.out.println(Language.GetString("p2Won"));
             winnerFound = true;
         }
     }
