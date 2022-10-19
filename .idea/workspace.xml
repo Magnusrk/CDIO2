@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Converted more strings into the lang files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/da.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/en.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Die" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FwmaRKNPrXIenspFYRo16a32Vm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/magnu/IdeaProjects/CDIO2/src/LanguagePacks&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/magnu/IdeaProjects/CDIO2/src/LanguagePacks/da.csv&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\magnu\IdeaProjects\CDIO2\src\LanguagePacks" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="g16del2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="" />
+      <created>1665411583729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665411583729</updated>
+      <workItem from="1665411585153" duration="130000" />
+      <workItem from="1665573501692" duration="385000" />
+      <workItem from="1665672256882" duration="15995000" />
+    </task>
+    <task id="LOCAL-00001" summary="Untracked files commit">
+      <created>1665573598151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665573598152</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made branch gameController">
+      <created>1665740029724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665740029724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added methods to gameController">
+      <created>1665999571504</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665999571504</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merged lang branch with gameController">
+      <created>1666000560795</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666000560795</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Game now ask for which langauge the player wants">
+      <created>1666002444783</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666002444783</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Began play round method and test">
+      <created>1666005600636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666005600636</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added check winner function skeleton">
+      <created>1666088601142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666088601142</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merged MoneyBalance with gameController">
+      <created>1666089991590</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666089991590</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Made a die branch">
+      <created>1666093922468</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666093922468</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merged thai into gameController.java">
+      <created>1666095532035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666095532035</updated>
+    </task>
+    <task id="LOCAL-00011" summary="removed some unnecessary comments">
+      <created>1666188648728</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666188648728</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Converted more strings into the lang files">
+      <created>1666189904675</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666189904675</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Untracked files commit" />
+    <MESSAGE value="Made branch gameController" />
+    <MESSAGE value="Added methods to gameController" />
+    <MESSAGE value="Merged lang branch with gameController" />
+    <MESSAGE value="Game now ask for which langauge the player wants" />
+    <MESSAGE value="Began play round method and test" />
+    <MESSAGE value="added check winner function skeleton" />
+    <MESSAGE value="Merged MoneyBalance with gameController" />
+    <MESSAGE value="Made a die branch" />
+    <MESSAGE value="Merged thai into gameController.java" />
+    <MESSAGE value="Merged gameController branch into devbranch" />
+    <MESSAGE value="removed some unnecessary comments" />
+    <MESSAGE value="Converted more strings into the lang files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converted more strings into the lang files" />
+  </component>
+</project>

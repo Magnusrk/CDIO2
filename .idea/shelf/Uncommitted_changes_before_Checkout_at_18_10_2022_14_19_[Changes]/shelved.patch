@@ -1,0 +1,39 @@
+Index: src/LanguagePacks/th.csv
+===================================================================
+diff --git a/src/LanguagePacks/th.csv b/src/LanguagePacks/th.csv
+--- a/src/LanguagePacks/th.csv	
++++ b/src/LanguagePacks/th.csv	
+@@ -1,12 +1,12 @@
+ #DONT REMOVE TESTS
+ test1;-1 -      asd1 -test TH 1
+-test2;-.,-:`?test TU 2
+-test3;:::"""""""test DA 3
+-test4;+-.,123test DA 4
++test2;-.,-:`?test TH 2
++test3;:::"""""""test TH 3
++test4;+-.,123test TH 4
+ 
+ #USAGE:
+ #key;value
+ #e.g.
+-#throwDiceText;Du kastede med terningerne!
++#throwDiceText;คุณโยนลูกเต๋าแล้ว!
+ 
+ welcomeText;สวัสดี!
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -17,6 +17,11 @@
+     "last_opened_file_path": "C:/Users/chaya/IdeaProjects/CDIO2/src/LanguagePacks"
+   }
+ }]]></component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\chaya\IdeaProjects\CDIO2\src\LanguagePacks" />
++    </key>
++  </component>
+   <component name="RunManager">
+     <configuration default="true" type="JetRunConfigurationType">
+       <module name="g16del2" />

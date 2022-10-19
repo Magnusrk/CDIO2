@@ -1,0 +1,35 @@
+#DONT REMOVE TESTS
+test1;-1 -      asd1 -test TH 1
+test2;-.,-:`?test TU 2
+test3;:::"""""""test TH 3
+test4;+-.,123test TH 4
+
+#USAGE:
+#key;value
+#e.g.
+#throwDiceText;คุณโยนลูกเต๋าแล้ว!
+
+welcomeText;สวัสดี!
+languageSetText;ภาษา: ไทย
+getThai;ไทย
+player;Spiller
+roll;kast
+rolled;Du slog
+gold; guld
+gain;Du får
+lose;Du mister
+yBalance;Dit guld:
+p1Won;Spiller 1 du vandt!
+p2Won;Spiller 2 du vandt!
+
+tower;
+crater;
+palace;
+desert;
+city;
+monastery;
+cave;
+huts;
+werewall;
+pit;
+goldmine;
