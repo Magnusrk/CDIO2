@@ -9,6 +9,10 @@ public class Player {
         return balance.getBalance();
     }
 
+    public void AddBalance(int add){
+        balance.addmoney(add);
+    }
+
     public String GetPlayerName(){
         return name;
     }
