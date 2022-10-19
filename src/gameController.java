@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 class gameController {
@@ -7,7 +7,6 @@ class gameController {
     MoneyBalance p1balance = new MoneyBalance();
     MoneyBalance p2balance = new MoneyBalance();
     Field field = new Field();
-    die Dice = new die();
 
     private final int MAXCASH = 1500;
     private boolean winnerFound = false;
@@ -27,31 +26,32 @@ class gameController {
         System.out.println(Language.GetString("thai"));
         Scanner scan = new Scanner(System.in);
         String lang = scan.next();
-        switch (lang){
-            case "a":
+        switch (lang) {
+            case "a" -> {
                 Language.SetLanguage("en");
                 language = Language.GetString("getEng");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            case "b":
+            }
+            case "b" -> {
                 Language.SetLanguage("da");
                 language = Language.GetString("getDan");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            case "c":
+            }
+            case "c" -> {
                 Language.SetLanguage("jp");
                 language = Language.GetString("getJap");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            case "d":
+            }
+            case "d" -> {
                 Language.SetLanguage("th");
                 language = Language.GetString("getThai");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            default:
+            }
+            default -> {
                 System.out.println(Language.GetString("tryAgain"));
                 System.out.println();
                 setLang();
+            }
         }
     }
     private void playRound(boolean p1Turn, int Player){
@@ -77,7 +77,7 @@ class gameController {
         }
         //Update cash balance and check win conditions
         checkWinner();
-        if (field.field == "The Werewall"){
+        if (Objects.equals(field.field, "The Werewall")){
             extraTurn(p1Turn);
         }
 
