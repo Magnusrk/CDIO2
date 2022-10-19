@@ -12,3 +12,8 @@ test4;+-.,123test EN 4
 welcomeText;Welcome!
 languageSetText;Language: English
 getEng;English
+gold; gold
+gain;You gain
+lose;You lose
+
+---------

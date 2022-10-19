@@ -6,6 +6,7 @@ class gameController {
     private String language;
     MoneyBalance p1balance = new MoneyBalance();
     MoneyBalance p2balance = new MoneyBalance();
+    Field field = new Field();
     die Dice = new die();
 
     private final int MAXCASH = 3000;
@@ -15,7 +16,7 @@ class gameController {
     }
     public void play(){
         setLang();
-        playRound(true);
+        playRound(true, 1);
     }
     private void setLang(){
         Language.SetLanguage("preLangPick");
@@ -53,20 +54,36 @@ class gameController {
                 setLang();
         }
     }
-    private void playRound(boolean p1Turn){
-        p1balance.addmoney(100);
-        System.out.println(p1balance.getBalance());
+    private void playRound(boolean p1Turn, int Player){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Spiller " + Player + " kast");
+        input.nextLine();
         //trow dice
         int[] dieResults = die.throwDice();
-        System.out.println(dieResults[0]+dieResults[1]);
+
         //Move player
+        field.fieldGet(dieResults[0]+dieResults[1]);
+        int roll = dieResults[0]+dieResults[1];
+        System.out.println("You rolled " + roll);
+
+        System.out.println(field.field);
+        System.out.println(field.fieldTxt);
+
+        if (p1Turn) {
+            p1balance.addmoney(field.addCash);
+            System.out.println(p1balance.getBalance());
+        } else {
+            p2balance.addmoney(field.addCash);
+            System.out.println(p2balance.getBalance());
+        }
+
         //Update cash balance and check win conditions
         checkWinner();
         //play round for the appropriate player
         if (p1Turn && !winnerFound){
-            playRound(false);
+            playRound(false, 2);
         } else if (!winnerFound){
-            playRound(true);
+            playRound(true, 1);
         }
 
 
