@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Merged thai into gameController.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/preLangPick.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/preLangPick.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
+    <list default="true" id="270accc7-40c2-4cc0-840a-3a8631334b9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
