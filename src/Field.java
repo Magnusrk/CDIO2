@@ -4,7 +4,7 @@ public class Field {
     String fieldTxt;
     int addCash;
     /*Switch case to choose which field is landed on.
-     *It chooses based on the dice throw and outputs the corresponding field.*/
+     It chooses based on the dice throw and outputs the corresponding field.*/
     public void fieldGet(int dieCount) {
         if (dieCount >12) {
             dieCount = (dieCount % 12)+1;
@@ -13,8 +13,6 @@ public class Field {
             case 2:
                 field = "Tower";
                 addCash = 250;
-                // Tekst skal formentlig ligge i en samlet pakke med oversætninger
-                // Tager gerne imod indsigelser i tekstindholdet
                 fieldTxt = Language.GetString("tower") + " " + Language.GetString("gain") + " " + addCash + Language.GetString("gold");
                 break;
             case 3:
@@ -55,7 +53,6 @@ public class Field {
             case 10:
                 field = "The Werewall";
                 addCash = -80;
-                //extra turn (usikker på hvordan jeg implementerer det pt.)
                 fieldTxt =  Language.GetString("werewall") + " " + Language.GetString("lose") + " " + addCash + Language.GetString("gold");
                 break;
             case 11:

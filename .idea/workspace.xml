@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Merged thai into gameController.java">
+    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Merged gameController branch into devbranch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/preLangPick.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/preLangPick.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +182,7 @@
     <MESSAGE value="Merged MoneyBalance with gameController" />
     <MESSAGE value="Made a die branch" />
     <MESSAGE value="Merged thai into gameController.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merged thai into gameController.java" />
+    <MESSAGE value="Merged gameController branch into devbranch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merged gameController branch into devbranch" />
   </component>
 </project>
