@@ -4,11 +4,13 @@ import java.util.Scanner;
 class gameController {
 
     private String language;
-    MoneyBalance p1balance = new MoneyBalance();
-    MoneyBalance p2balance = new MoneyBalance();
+    //Players
+    Player player1 = new Player("one");
+    Player player2 = new Player("two");
+
     Field field = new Field();
 
-    private final int MAXCASH = 1500;
+    private final int MAXCASH = 3000;
     private boolean winnerFound = false;
     public gameController(){
 
@@ -69,11 +71,11 @@ class gameController {
         System.out.println(field.fieldTxt);
 
         if (p1Turn) {
-            p1balance.addmoney(field.addCash);
-            System.out.println(Language.GetString("yBalance") + " " + p1balance.getBalance());
+            player1.AddBalance(field.addCash);
+            System.out.println(Language.GetString("yBalance") + " " + player1.GetPlayerBalance());
         } else {
-            p2balance.addmoney(field.addCash);
-            System.out.println(Language.GetString("yBalance") + " " + p2balance.getBalance());
+            player2.AddBalance(field.addCash);
+            System.out.println(Language.GetString("yBalance") + " " + player2.GetPlayerBalance());
         }
         //Update cash balance and check win conditions
         checkWinner();
@@ -94,12 +96,12 @@ class gameController {
 
     }
     private void checkWinner(){
-        if (p1balance.getBalance() >= MAXCASH){
+        if (player1.GetPlayerBalance() >= MAXCASH){
             System.out.println(Language.GetString("p1Won"));
             winnerFound = true;
             resetGame();
         }
-        if (p2balance.getBalance() >= MAXCASH){
+        if (player2.GetPlayerBalance() >= MAXCASH){
             System.out.println(Language.GetString("p2Won"));
             winnerFound = true;
             resetGame();
@@ -118,8 +120,8 @@ class gameController {
     }
 
     public void resetGame(){
-        p1balance.reset();
-        p2balance.reset();
+        player1.reset();
+        player2.reset();
         winnerFound = false;
         System.out.println();
         play();
