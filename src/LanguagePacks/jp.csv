@@ -10,17 +10,27 @@ test4;+-.,123test JP 4
 #throwDiceText;サイコロを振った！
 
 welcomeText;ようこそ!
-languageSetText;ようこそ
-getJap;Nippon
+languageSetText;日本語
+getJap;日本語
+player;プレーヤー
+roll;転がして！
+rolled;サイコロは：
+gold;金
+gain;プレーヤーは金をもらった：
+lose;プレーヤーは金を失った：
+yBalance;プレーヤーの金：
+p1Won;プレーヤー１は勝ちました！
+p2Won;プレーヤー２は勝ちました！
+exTurn;Du får en ekstra tur
 
-tower;
-crater;
-palace;
-desert;
-city;
-monastery;
-cave;
-huts;
-werewall;
-pit;
-goldmine;
+tower;プレーヤーはタワーで金がいっぱい金庫を見つけます
+crater;プレーヤーはクレーターに転んだから助けることを買わなくてはいけません！
+palace;プレーヤーは城の門で女王様に合った。女王様はプレーヤーを行きたかったから、プレーヤーに１００金をくれた。
+desert;プレーヤーは寒い砂漠にいます。人は毛布を売っています。寒すぎから毛布を買いました。
+city;プレーヤーは城壁都市に行く。あなたのエントラントの番号は1.000.000.000.000です、そして、賞金をもらった。
+monastery;プレーヤーは修道院で祈ります。なにも起こらなかったです。
+cave;プレーヤーは真っ暗洞窟にいます！何も見えないから、石でつまずきました。金を失いました。
+huts;You go for a hike and finds some huts in the mountain. You scavenge them for a small amount of gold.
+werewall;You get lost and by some unfortunate bad luck end up at the Werewall. A werewolf spots you and takes chase. You try to throw whatever is in your pocket at it.
+pit;You fall into the pit. Luckily there is a ladder to get out. Unluckily you have to pay to use it.
+goldmine;You go to the abandoned goldmine in hopes of making a quick buck, for some reason it works.

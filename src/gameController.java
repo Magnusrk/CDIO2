@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 class gameController {
@@ -7,9 +7,8 @@ class gameController {
     MoneyBalance p1balance = new MoneyBalance();
     MoneyBalance p2balance = new MoneyBalance();
     Field field = new Field();
-    die Dice = new die();
 
-    private final int MAXCASH = 3000;
+    private final int MAXCASH = 1500;
     private boolean winnerFound = false;
     public gameController(){
 
@@ -27,36 +26,38 @@ class gameController {
         System.out.println(Language.GetString("thai"));
         Scanner scan = new Scanner(System.in);
         String lang = scan.next();
-        switch (lang){
-            case "a":
+        switch (lang) {
+            case "a" -> {
                 Language.SetLanguage("en");
                 language = Language.GetString("getEng");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            case "b":
+            }
+            case "b" -> {
                 Language.SetLanguage("da");
                 language = Language.GetString("getDan");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            case "c":
+            }
+            case "c" -> {
                 Language.SetLanguage("jp");
                 language = Language.GetString("getJap");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            case "d":
+            }
+            case "d" -> {
                 Language.SetLanguage("th");
                 language = Language.GetString("getThai");
                 System.out.println(Language.GetString("languageSetText"));
-                break;
-            default:
+            }
+            default -> {
                 System.out.println(Language.GetString("tryAgain"));
                 System.out.println();
                 setLang();
+            }
         }
     }
     private void playRound(boolean p1Turn, int Player){
         Scanner input = new Scanner(System.in);
-        System.out.println("Spiller " + Player + " kast");
+        System.out.println();
+        System.out.println(Language.GetString("player") + " " + Player + " " + Language.GetString("roll"));
         input.nextLine();
         //throw dice
         int[] dieResults = die.throwDice();
@@ -64,23 +65,29 @@ class gameController {
         //Move player
         field.fieldGet(dieResults[0]+dieResults[1]);
         int roll = dieResults[0]+dieResults[1];
-        System.out.println("You rolled " + roll);
+        System.out.println(Language.GetString("rolled") + " " + roll);
         System.out.println(field.fieldTxt);
 
         if (p1Turn) {
             p1balance.addmoney(field.addCash);
-            System.out.println(p1balance.getBalance());
+            System.out.println(Language.GetString("yBalance") + " " + p1balance.getBalance());
         } else {
             p2balance.addmoney(field.addCash);
-            System.out.println(p2balance.getBalance());
+            System.out.println(Language.GetString("yBalance") + " " + p2balance.getBalance());
         }
-
         //Update cash balance and check win conditions
         checkWinner();
+        if (Objects.equals(field.field, "The Werewall")){
+            extraTurn(p1Turn);
+        }
+
+
+
         //play round for the appropriate player
         if (p1Turn && !winnerFound){
             playRound(false, 2);
-        } else if (!winnerFound){
+        }
+        if (!p1Turn && !winnerFound){
             playRound(true, 1);
         }
 
@@ -88,16 +95,33 @@ class gameController {
     }
     private void checkWinner(){
         if (p1balance.getBalance() >= MAXCASH){
-            System.out.println("p1 won");
+            System.out.println(Language.GetString("p1Won"));
             winnerFound = true;
+            resetGame();
         }
         if (p2balance.getBalance() >= MAXCASH){
-            System.out.println("p2 won");
+            System.out.println(Language.GetString("p2Won"));
             winnerFound = true;
+            resetGame();
+        }
+
+    }
+    private void extraTurn(boolean p1Turn){
+        if (p1Turn && !winnerFound){
+            System.out.println(Language.GetString("exTurn"));
+            playRound(true, 1);
+        }
+        if (!p1Turn && !winnerFound){
+            System.out.println(Language.GetString("exTurn"));
+            playRound(false, 2);
         }
     }
 
     public void resetGame(){
+        p1balance.reset();
+        p2balance.reset();
+        winnerFound = false;
+        System.out.println();
         play();
     }
 
