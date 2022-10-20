@@ -1,9 +1,8 @@
 public class Player {
     MoneyBalance balance = new MoneyBalance();
     String name;
-    int startingBalance = balance.getBalance();
-    public Player(String name){
-        this.name = name;
+    public Player(){
+
     }
 
     public int GetPlayerBalance(){
@@ -17,7 +16,4 @@ public class Player {
         balance.reset();
     }
 
-    public String GetPlayerName(){
-        return name;
-    }
 }

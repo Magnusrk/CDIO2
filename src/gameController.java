@@ -2,15 +2,15 @@ import java.util.Objects;
 import java.util.Scanner;
 
 class gameController {
-
     private String language;
+
     //Players
-    Player player1 = new Player("one");
-    Player player2 = new Player("two");
+    Player player1 = new Player();
+    Player player2 = new Player();
 
     Field field = new Field();
 
-    private final int MAXCASH = 3000;
+    private final int MAXCASH = 3000; // How much cash i needed to win the game.
     private boolean winnerFound = false;
     public gameController(){
 
@@ -20,6 +20,8 @@ class gameController {
         playRound(true, 1);
     }
     private void setLang(){
+        //This function lets the user pick the language of the game.
+        // By pressing a specific letter on the keyboard.
         Language.SetLanguage("preLangPick");
         System.out.println(Language.GetString("press"));
         System.out.println(Language.GetString("english"));
@@ -57,10 +59,14 @@ class gameController {
         }
     }
     private void playRound(boolean p1Turn, int Player){
+       //This function plays one round for one of the players.
+
+        //Prompts the player to roll the dice.
         Scanner input = new Scanner(System.in);
         System.out.println();
         System.out.println(Language.GetString("player") + " " + Player + " " + Language.GetString("roll"));
         input.nextLine();
+
         //throw dice
         int[] dieResults = die.throwDice();
 
@@ -70,6 +76,7 @@ class gameController {
         System.out.println(Language.GetString("rolled") + " " + roll);
         System.out.println(field.fieldTxt);
 
+        //Adds money into the players account.
         if (p1Turn) {
             player1.AddBalance(field.addCash);
             System.out.println(Language.GetString("yBalance") + " " + player1.GetPlayerBalance());
@@ -77,15 +84,14 @@ class gameController {
             player2.AddBalance(field.addCash);
             System.out.println(Language.GetString("yBalance") + " " + player2.GetPlayerBalance());
         }
-        //Update cash balance and check win conditions
+
         checkWinner();
+        //Gives the player an extra turn if they land on the werewall
         if (Objects.equals(field.field, "The Werewall")){
             extraTurn(p1Turn);
         }
 
-
-
-        //play round for the appropriate player
+        //Rotates the player.
         if (p1Turn && !winnerFound){
             playRound(false, 2);
         }
@@ -96,6 +102,7 @@ class gameController {
 
     }
     private void checkWinner(){
+        //This functions checks if the players balance is higher than the win amount.
         if (player1.GetPlayerBalance() >= MAXCASH){
             System.out.println(Language.GetString("p1Won"));
             winnerFound = true;
@@ -109,6 +116,7 @@ class gameController {
 
     }
     private void extraTurn(boolean p1Turn){
+        //This funtion gives the player an extra turn
         if (p1Turn && !winnerFound){
             System.out.println(Language.GetString("exTurn"));
             playRound(true, 1);
@@ -120,6 +128,7 @@ class gameController {
     }
 
     public void resetGame(){
+        //This function reset the game
         player1.reset();
         player2.reset();
         winnerFound = false;
