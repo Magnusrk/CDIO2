@@ -8,6 +8,9 @@ public class MoneyBalance {
     //Adds money to the players balance. x will be a variable from the field class
     public void addmoney(int addCash){
         balance+=addCash;
+        if (balance<0){
+            balance=0;
+        }
     }
 
     public int getBalance(){
