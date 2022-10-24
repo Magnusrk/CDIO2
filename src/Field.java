@@ -12,8 +12,9 @@ public class Field {
         switch (dieCount){
             case 2:
                 field = "Tower";
-                addCash = 250;
+                addCash = 250; //addCash sets a value for the points(gold) acquired or lost when landing on the field, this is used in the MoneyBalance-Class.
                 fieldTxt = Language.GetString("tower") + " " + Language.GetString("gain") + " " + Math.abs(addCash) + Language.GetString("gold");
+                /*fieldTxt is used to find the correct line of text to show.*/
                 break;
             case 3:
                 field = "Crater";
