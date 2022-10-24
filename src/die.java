@@ -1,5 +1,5 @@
 public class die {
-    private static final int DIESIDE = 6;
+    private static final int DIESIDE = 12;
 
     public die (){
 

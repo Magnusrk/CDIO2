@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Added dice test">
-      <change afterPath="$PROJECT_DIR$/src/FieldTest.java" afterDir="false" />
+    <list default="true" id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Added field test">
+      <change afterPath="$PROJECT_DIR$/src/MoneyBalanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoneyBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoneyBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/die.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.dieTest">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="g16del2" />
@@ -91,8 +92,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.dieTest" />
-        <item itemvalue="JUnit.FieldTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FieldTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -108,7 +109,7 @@
       <workItem from="1665411585153" duration="130000" />
       <workItem from="1665573501692" duration="385000" />
       <workItem from="1665672256882" duration="15995000" />
-      <workItem from="1666613535956" duration="4156000" />
+      <workItem from="1666613535956" duration="5906000" />
     </task>
     <task id="LOCAL-00001" summary="Untracked files commit">
       <created>1665573598151</created>
@@ -208,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666614071895</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added field test">
+      <created>1666617990960</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666617990960</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,17 +248,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="Fixed typo" />
     <MESSAGE value="Added dice test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dice test" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added field test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added field test" />
   </component>
 </project>
