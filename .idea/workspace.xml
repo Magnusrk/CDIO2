@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Fixed typo">
-      <change afterPath="$PROJECT_DIR$/src/dieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17-10-2022_11_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17-10-2022_11_32__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_10_2022_14_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_10_2022_14_19__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" afterDir="false" />
+    <list default="true" id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Added dice test">
+      <change afterPath="$PROJECT_DIR$/src/FieldTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="g16del2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FieldTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="g16del2" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,6 +91,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.dieTest" />
+        <item itemvalue="JUnit.FieldTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -103,7 +108,7 @@
       <workItem from="1665411585153" duration="130000" />
       <workItem from="1665573501692" duration="385000" />
       <workItem from="1665672256882" duration="15995000" />
-      <workItem from="1666613535956" duration="517000" />
+      <workItem from="1666613535956" duration="4156000" />
     </task>
     <task id="LOCAL-00001" summary="Untracked files commit">
       <created>1665573598151</created>
@@ -196,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666608055671</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added dice test">
+      <created>1666614071895</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666614071895</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +239,18 @@
     <MESSAGE value="Player" />
     <MESSAGE value="test commit" />
     <MESSAGE value="Fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo" />
+    <MESSAGE value="Added dice test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dice test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
