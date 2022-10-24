@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="Created Thai version">
+    <list default="true" id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Fixed typo">
+      <change afterPath="$PROJECT_DIR$/src/dieTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17-10-2022_11_32_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17-10-2022_11_32__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_10_2022_14_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_10_2022_14_19__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/th.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/th.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +22,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Die" />
+        <entry key="$PROJECT_DIR$" value="gameController" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.dieTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="g16del2" />
@@ -69,8 +75,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="g16del2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="dieTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.dieTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -79,7 +95,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71751866-3343-4d90-bf7a-529eb8d1c8f3" name="Changes" comment="" />
+      <changelist id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Fixed typo" />
       <created>1665411583729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -87,6 +103,7 @@
       <workItem from="1665411585153" duration="130000" />
       <workItem from="1665573501692" duration="385000" />
       <workItem from="1665672256882" duration="15995000" />
+      <workItem from="1666613535956" duration="517000" />
     </task>
     <task id="LOCAL-00001" summary="Untracked files commit">
       <created>1665573598151</created>
@@ -165,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666198291725</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test commit">
+      <created>1666527841748</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666527841748</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed typo">
+      <created>1666608055671</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666608055671</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +225,8 @@
     <MESSAGE value="Made a die branch" />
     <MESSAGE value="Merged thai into gameController.java" />
     <MESSAGE value="Player" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player" />
+    <MESSAGE value="test commit" />
+    <MESSAGE value="Fixed typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed typo" />
   </component>
 </project>

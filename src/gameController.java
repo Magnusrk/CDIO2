@@ -127,7 +127,7 @@ class gameController {
         }
     }
 
-    public void resetGame(){
+    private void resetGame(){
         //This function reset the game
         player1.reset();
         player2.reset();
