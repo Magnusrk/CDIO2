@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c744d8-0855-4c7c-a116-e4e636dc4a78" name="Changes" comment="merged lang test into devbranch">
+    <list default="true" id="32c744d8-0855-4c7c-a116-e4e636dc4a78" name="Changes" comment="fixed typo and added comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoneyBalanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoneyBalanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666622223144</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixed typo and added comments">
+      <created>1666697343765</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666697343765</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +262,7 @@
     <MESSAGE value="Added dice test" />
     <MESSAGE value="Added field test" />
     <MESSAGE value="merged lang test into devbranch" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged lang test into devbranch" />
+    <MESSAGE value="fixed typo and added comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed typo and added comments" />
   </component>
 </project>

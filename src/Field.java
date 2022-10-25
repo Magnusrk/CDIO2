@@ -9,8 +9,9 @@ public class Field {
         if (dieCount >12) {
             if (dieCount % 12 == 0){
                 dieCount = 12;
+            } else {
+                dieCount = (dieCount % 12) + 1;
             }
-            dieCount = (dieCount % 12)+1;
         }
         switch (dieCount){
             case 2:
