@@ -10,7 +10,7 @@ class gameController {
 
     Field field = new Field();
 
-    private final int MAXCASH = 3000; // How much cash i needed to win the game.
+    private final int MAXCASH = 3000; // How much cash is needed to win the game.
     private boolean winnerFound = false;
     public gameController(){
 
@@ -86,6 +86,7 @@ class gameController {
         }
 
         checkWinner();
+
         //Gives the player an extra turn if they land on the werewall
         if (Objects.equals(field.field, "The Werewall")){
             extraTurn(p1Turn);
@@ -128,7 +129,7 @@ class gameController {
     }
 
     private void resetGame(){
-        //This function reset the game
+        //This function resets the game and the players values
         player1.reset();
         player2.reset();
         winnerFound = false;

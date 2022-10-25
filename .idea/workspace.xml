@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Added field test">
-      <change afterPath="$PROJECT_DIR$/src/MoneyBalanceTest.java" afterDir="false" />
+    <list default="true" id="32c744d8-0855-4c7c-a116-e4e636dc4a78" name="Changes" comment="merged lang test into devbranch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoneyBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoneyBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Field.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FieldTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoneyBalanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoneyBalanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="gameController" />
+        <entry key="$PROJECT_DIR$" value="Language" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666617990960</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="merged lang test into devbranch">
+      <created>1666622223144</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666622223144</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +257,7 @@
     <MESSAGE value="Fixed typo" />
     <MESSAGE value="Added dice test" />
     <MESSAGE value="Added field test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added field test" />
+    <MESSAGE value="merged lang test into devbranch" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged lang test into devbranch" />
   </component>
 </project>

@@ -7,7 +7,7 @@ class MoneyBalanceTest {
 
     @Test
     void testAddmoney() {
-        m.addmoney(-10000);
+        m.addmoney(-100000000);
         assertEquals(0, m.getBalance());
     }
 }

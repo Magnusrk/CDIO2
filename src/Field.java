@@ -8,7 +8,7 @@ public class Field {
     public int fieldGet(int dieCount) {
         if (dieCount >12) {
             if (dieCount % 12 == 0){
-                dieCount = 2;
+                dieCount = 12;
             }
             dieCount = (dieCount % 12)+1;
         }
