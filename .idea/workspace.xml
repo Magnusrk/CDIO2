@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32c744d8-0855-4c7c-a116-e4e636dc4a78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_10_2022_14_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_10_2022_14_19__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" afterDir="false" />
+    <list default="true" id="32c744d8-0855-4c7c-a116-e4e636dc4a78" name="Changes" comment="fixed typo">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18-10-2022_12_24__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LanguagePacks/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/LanguagePacks/da.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoneyBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoneyBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/die.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FieldTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="g16del2" />
@@ -91,9 +92,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.dieTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FieldTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.dieTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -101,7 +102,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78bf8d3b-d496-4438-a8c7-f1000209b027" name="Changes" comment="Fixed typo" />
+      <changelist id="32c744d8-0855-4c7c-a116-e4e636dc4a78" name="Changes" comment="fixed typo" />
       <created>1665411583729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -110,6 +111,7 @@
       <workItem from="1665573501692" duration="385000" />
       <workItem from="1665672256882" duration="15995000" />
       <workItem from="1666613535956" duration="5906000" />
+      <workItem from="1666937013976" duration="1550000" />
     </task>
     <task id="LOCAL-00001" summary="Untracked files commit">
       <created>1665573598151</created>
@@ -230,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666697343765</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed typo">
+      <created>1666704003360</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1666704003360</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +274,7 @@
     <MESSAGE value="Added field test" />
     <MESSAGE value="merged lang test into devbranch" />
     <MESSAGE value="fixed typo and added comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed typo and added comments" />
+    <MESSAGE value="fixed typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
   </component>
 </project>
